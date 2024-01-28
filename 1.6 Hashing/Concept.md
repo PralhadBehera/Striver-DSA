@@ -49,3 +49,36 @@ Each character is assigned a unique numeric value. This can be done using variou
 ### Hash Function
 
 A hash function is applied to the numeric representation to generate a hash code. The hash code is the final result of the character hashing process.
+
+```javascript 
+
+function countCharacters(str) {
+  const charCount = {};
+
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i];
+
+    // Check if the character is already in the hashmap
+    if (charCount[char]) {
+      // Increment count if exists
+      charCount[char]++;
+    } else {
+      // Initialize count if not exists
+      charCount[char] = 1;
+    }
+  }
+
+  return charCount;
+}
+
+// Example usage
+const inputString = "programming";
+const charOccurrences = countCharacters(inputString);
+
+console.log("Character occurrences:");
+for (let char in charOccurrences) {
+  console.log(`${char}: ${charOccurrences[char]}`);
+}
+
+
+```
