@@ -30,3 +30,4 @@ function Euclid_Algorithm(num1, num2) {
 }
 
 console.log(Euclid_Algorithm(12, 18));
+6

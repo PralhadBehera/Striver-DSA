@@ -25,3 +25,17 @@ else{
 }
 
 console.log(fact(5))
+
+//with recursion
+
+function fact(n, i = 1, f = 1) {
+    if (i <= n) {
+        f *= i;
+        i++;
+        return fact(n, i, f);
+    }
+    return f;
+}
+
+// Test the function
+console.log(fact(5)); // Output: 120

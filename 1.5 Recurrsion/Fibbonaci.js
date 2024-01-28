@@ -18,3 +18,27 @@ function fibo(n) {
 }
 
 console.log(fibo(5));
+
+// 2nd 
+
+function fibonacci(num, i = 1, num1 = 0, num2 = 1) {
+    if (i <= num) {
+        let fibo = num1 + num2;
+        console.log(fibo);
+        num1 = num2;
+        num2 = fibo;
+        i++;
+        fibonacci(num, i, num1, num2);
+    }
+}
+
+console.log("0");
+console.log("1");
+fibonacci(5);
+
+
+
+
+
+
+
