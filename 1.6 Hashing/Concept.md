@@ -36,6 +36,8 @@ const numbers = [1, 2, 1, 3, 2, 4, 1, 4, 5];
 // Call the countOccurrences function with the example array
 countOccurrences(numbers);
 
+```javascript
+
 ## Character Hashing
 
 In the context of hashing algorithms, character hashing involves converting a character or a sequence of characters into a numerical representation. This numerical representation is often used as an index or key in hash tables or hash maps.
