@@ -84,3 +84,18 @@ for (let char in charOccurrences) {
 ```
 ## Numeric Hashing 
  **_Numeric Hashing_** is same as **_Normal Hashing Map_**
+
+ ## Map
+
+In JavaScript, the Map object is a built-in collection that allows you to store key-value pairs where both the keys and values can be of any type
+
+### Methods
+
+
+set(key, value): Adds a new key-value pair to the map.
+```javascript 
+let myMap = new Map();
+myMap.set('name', 'John');
+myMap.set('age', 25);
+
+```
