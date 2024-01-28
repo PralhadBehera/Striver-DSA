@@ -83,4 +83,4 @@ for (let char in charOccurrences) {
 
 ```
 ## Numeric Hashing 
- **Numeric Hashing** is same as **Normal Hashing Map**
+ **_Numeric Hashing_** is same as **_Normal Hashing Map_**
