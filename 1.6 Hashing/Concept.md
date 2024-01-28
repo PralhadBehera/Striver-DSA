@@ -36,7 +36,7 @@ const numbers = [1, 2, 1, 3, 2, 4, 1, 4, 5];
 // Call the countOccurrences function with the example array
 countOccurrences(numbers);
 
-```javascript
+```
 
 ## Character Hashing
 
