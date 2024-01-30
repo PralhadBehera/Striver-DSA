@@ -140,3 +140,32 @@ for (let [key, value] of myMap.entries()) {
   console.log(`${key}: ${value}`);
 }
 ```
+
+##Code
+
+```javascript 
+function countOccurrences(arr) {
+  // Create a Map to store the count of each element
+  let occurrencesMap = new Map();
+
+  // Iterate through the array
+  for (let element of arr) {
+    // If the element is already in the Map, increment its count
+    if (occurrencesMap.has(element)) {
+      occurrencesMap.set(element, occurrencesMap.get(element) + 1);
+    } else {
+      // If the element is not in the Map, add it with count 1
+      occurrencesMap.set(element, 1);
+    }
+  }
+
+  // Display the count of occurrences
+  for (let [element, count] of occurrencesMap) {
+    console.log(`${element} occurs ${count} times`);
+  }
+}
+
+// Example usage
+let myArray = [1, 2, 1, 3, 2];
+countOccurrences(myArray);
+```
