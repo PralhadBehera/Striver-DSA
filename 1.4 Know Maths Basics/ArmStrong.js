@@ -14,3 +14,26 @@ function ArmStrong(num) {
 }
 
 console.log(ArmStrong(153));
+
+//recursive approch 
+
+
+function Armstrong (n,res=0){
+    if(n>0){
+      let rem=0;
+      rem=n%10;
+      res+=rem*rem*rem;
+      n=Math.floor(n/10);
+      return Armstrong(n,res)
+    }
+    return res;
+  }
+   
+   
+   let res=Armstrong(153)
+   console.log(res)
+   if(res===153){
+     console.log("Armstrong")
+   }else{
+     console.log("not Armstrong")
+   }

@@ -99,3 +99,13 @@ myMap.set('name', 'John');
 myMap.set('age', 25);
 
 ```
+
+get(key): Returns the value associated with the specified key.
+```javascript 
+get(key): Returns the value associated with the specified key.
+```
+
+has(key): Returns a boolean indicating whether the specified key exists in the map.
+```javascript 
+console.log(myMap.has('age')); // Output: true
+```

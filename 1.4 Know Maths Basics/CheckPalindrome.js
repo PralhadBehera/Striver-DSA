@@ -14,7 +14,5 @@ function CheckPalindrome(num){
      }
 
 
-}
-
-
+   }
 console.log(CheckPalindrome(121));
