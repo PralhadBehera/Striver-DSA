@@ -141,7 +141,7 @@ for (let [key, value] of myMap.entries()) {
 }
 ```
 
-##Code
+## Code
 
 ```javascript 
 function countOccurrences(arr) {
@@ -169,3 +169,6 @@ function countOccurrences(arr) {
 let myArray = [1, 2, 1, 3, 2];
 countOccurrences(myArray);
 ```
+## Difference between the hashmap and map
+
+![Alt text](image.png)
