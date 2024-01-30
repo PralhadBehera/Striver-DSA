@@ -109,3 +109,34 @@ has(key): Returns a boolean indicating whether the specified key exists in the m
 ```javascript 
 console.log(myMap.has('age')); // Output: true
 ```
+delete(key): Removes the specified key and its associated value from the map.
+```javascript 
+myMap.delete('age');
+```
+clear(): Removes all key-value pairs from the map.
+```javascript 
+myMap.clear();
+```
+size: Returns the number of key-value pairs in the map.
+```javascript 
+console.log(myMap.size); // Output: 1
+```
+keys(): Returns an iterator over the keys in the map.
+```javascript 
+for (let key of myMap.keys()) {
+  console.log(key);
+}
+```
+
+values(): Returns an iterator over the values in the map.
+```javascript 
+for (let key of myMap.keys()) {
+  console.log(key);
+}
+  ```
+entries(): Returns an iterator over the key-value pairs in the map.
+```javascript 
+for (let [key, value] of myMap.entries()) {
+  console.log(`${key}: ${value}`);
+}
+```
