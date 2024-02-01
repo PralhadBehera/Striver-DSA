@@ -1,22 +1,28 @@
 # **Bubble Sort**
 ```javascript 
 
-function BubbleSort(a){
-    for(let i=a.length-1;i>=0;i--){
-        for(let j=0;j<=i-1;j++){
-            if(a[j]>a[j+1]){
-                let temp=0;
-                temp=a[j];
-                a[j]=a[j+1];
-                a[j+1]=temp;
+// Function to perform Bubble Sort on an array
+function BubbleSort(arr) {
+    // Outer loop for each pass
+    for (let i = arr.length - 1; i >= 0; i--) {
+        // Inner loop for comparisons and swaps
+        for (let j = 0; j <= i - 1; j++) {
+            // Compare adjacent elements
+            if (arr[j] > arr[j + 1]) {
+                // Swap if necessary
+                let temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
             }
         }
     }
-    return a;
+    return arr; // Return the sorted array
 }
-let  arr=[8,3,2,10,11];
-let res=BubbleSort(arr);
-console.log(res)
+
+let arr = [8, 3, 2, 10, 11];
+let sortedArr = BubbleSort(arr);
+console.log(sortedArr); // Print the sorted array
+
 ```
 
 
