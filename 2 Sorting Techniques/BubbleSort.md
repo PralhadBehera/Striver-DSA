@@ -16,7 +16,8 @@ function BubbleSort(a){
 }
 let  arr=[8,3,2,10,11];
 let res=BubbleSort(arr);
-console.log(res)```
+console.log(res)
+```
 
 
 ## **Explanation**
