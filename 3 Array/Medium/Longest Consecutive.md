@@ -1,7 +1,7 @@
 # Longest Consecutive 
 
 ## 1st Approach 
-```javascipt 
+```javascript 
 
 function largestConsecutive(nums){
   let res =[];
